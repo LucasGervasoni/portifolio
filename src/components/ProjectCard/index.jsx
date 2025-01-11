@@ -16,7 +16,7 @@ export default function ProjectCard({ projects }) {
 
   return (
     <div id={estilos.Card}>
-    
+    <h2 className={estilos.title}>My Projects</h2>
     {projects.map((projeto, index) => (
       index === currentProjectIndex && (
       <div key={index} className={estilos.card}>
@@ -44,7 +44,7 @@ export default function ProjectCard({ projects }) {
           </ul>
           <p className={estilos.project_desc}>{projeto.desc}
           </p>
-          <a className={estilos.project_link} href={projeto.link} target='_blank'>Ver Projeto</a>
+          <a className={estilos.project_link} href={projeto.link} target='_blank'>View Project</a>
         </div>
       </div>
     )))}

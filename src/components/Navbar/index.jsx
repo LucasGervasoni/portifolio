@@ -8,8 +8,8 @@ export default function Navbar(){
         <h2>Lucas Gervasoni</h2>
       </div>
       <ul className={estilos.links}>
-        <li><Link href="/">Inicio</Link></li>
-        <li><Link href="/Projetos">Projetos</Link></li>
+        <li><Link href="/">Home</Link></li>
+        <li><Link href="/Projetos">Projects</Link></li>
       </ul>
     </navbar>
   )
