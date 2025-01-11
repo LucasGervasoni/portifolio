@@ -14,17 +14,25 @@
 .links{
   display:flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 4rem;
   list-style: none;
+}
 
-  & a{
-    font-size:var(--font-size-small);
-    text-decoration: none;
-    color: var(--color-primary);
+#btn{
+  line-height: 0;
+  text-transform: none;
+  letter-spacing: 0;
+}
 
-    &:hover{
-      color: var(--color-secondary);
-    }
+.link{
+  font-size:var(--font-size-small) !important;
+  text-decoration: none !important;
+  color: var(--color-primary) !important;
+
+  &:hover{
+    color: var(--color-secondary) !important;
   }
 }
 
