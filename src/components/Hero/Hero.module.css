@@ -1,0 +1,80 @@
+.center{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero{
+  margin: 0 auto;
+  width: 80vw;
+  text-align: center;
+}
+
+.intro{
+  color: var(--color-primary);
+  font-weight: bold;
+  padding-bottom: 0.2rem;
+}
+
+.nome{
+  font-size: var(--font-size-large);
+  padding-bottom: 1rem;
+}
+
+.ocupacao{
+  font-size: var(--font-size-medium);
+  color: var(--color-secondary);
+  padding-bottom: 2rem;
+}
+
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+
+.btn{
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 1rem;
+  text-decoration: none;
+}
+
+.btn_cv{
+  color: var(--color-primary);
+  background: transparent;
+  border: 1px solid black;
+  transition: all 0.5s ease-out;
+
+  &:hover{
+    color: var(--color-light);
+    background-color: var(--color-primary);
+    border: none;
+    transition: all 0.5s ease-in;
+  }
+}
+
+.btn_contact{
+  background: var(--color-primary);
+  color: var(--color-light);
+  border: none;
+  transition: all 0.5s ease-out;
+
+  &:hover{
+    background-color: var(--color-secondary);
+    transition: all 0.5s ease-in;
+  }
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.2rem;
+}

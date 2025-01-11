@@ -1,0 +1,12 @@
+#hero{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#projects{
+  & h2{
+    padding: 2rem 10rem;
+  }
+}

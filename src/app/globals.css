@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family:'Roboto', sans-serif;
+}
+
+
+:root {
+  /* Cores */
+  --color-primary: #000000; 
+  --color-secondary: #7d7d7d; 
+  --color-light: #fbfbfb;
+  --color-background-dark: #000000; 
+
+  /* Tamanhos de texto */
+  --font-size-small: 1.6rem; 
+  --font-size-medium: 2rem; 
+  --font-size-large: 3.2rem;
+}
