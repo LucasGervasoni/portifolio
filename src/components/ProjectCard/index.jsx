@@ -16,7 +16,6 @@ export default function ProjectCard({ projects }) {
 
   return (
     <div id={estilos.Card}>
-    <h2 className={estilos.title}>My Projects</h2>
     {projects.map((projeto, index) => (
       index === currentProjectIndex && (
       <div key={index} className={estilos.card}>

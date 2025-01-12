@@ -1,0 +1,71 @@
+.heroAbout{
+  padding: 2rem 10rem;
+}
+
+.titleAbout{
+  font-size: var(--font-size-large);
+  letter-spacing: 0.2rem;
+}
+
+.content{
+  padding: 1.5rem 0;
+  color: var(--color-secondary);
+}
+
+.bold{
+  display: inline-block;
+  padding-bottom: 1.3rem;
+}
+
+.btns{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+
+.btn{
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn_cv{
+  color: var(--color-primary);
+  background: transparent;
+  border: 1px solid black;
+  transition: all 0.5s ease-out;
+
+  &:hover{
+    color: var(--color-light);
+    background-color: var(--color-primary);
+    border: none;
+    transition: all 0.5s ease-in;
+  }
+}
+
+.btn_contact{
+  background: var(--color-primary);
+  color: var(--color-light);
+  border: none;
+  transition: all 0.5s ease-out;
+
+  &:hover{
+    background-color: var(--color-secondary);
+    transition: all 0.5s ease-in;
+  }
+}
+
+@media screen and (max-width:540px) {
+  .btns{
+    flex-wrap: wrap;
+  }
+
+  .heroAbout{
+    padding: 2rem 3rem;
+  }
+}

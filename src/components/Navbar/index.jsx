@@ -24,6 +24,7 @@ export default function Navbar(){
       </div>
       <ul className={estilos.links}>
         <li><Link className={estilos.link} href="/">Home</Link></li>
+        <li><Link className={estilos.link} href="/About">About</Link></li>
         <li>
         <Button
             id={estilos.btn}
