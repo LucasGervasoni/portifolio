@@ -37,7 +37,7 @@ export default function ProjectCard({ projects }) {
                     src={tech.icone}
                     alt={tech.nome}
                   />
-                  {tech.nome}
+                  <p className={estilos.skill_name}>{tech.nome}</p>
                 </li>
               ))}
           </ul>

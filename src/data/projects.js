@@ -1,5 +1,44 @@
 const projects = [
   {
+    name: "Otica",
+    tecnologias: [
+      { nome: "React", icone: "./skills/react.svg" },
+      { nome: "HTML", icone: "./skills/html5.svg" },
+      { nome: "CSS", icone: "./skills/css3.svg" },
+      { nome: "Js", icone: "./skills/javascript.svg" },
+    ],
+    desc: "The Landing Page Ótica is a fictional project designed to practice the fundamentals of React in a practical and intuitive way. The goal is to build a modern and responsive page representing an eyewear store, with reusable components and sections such as Hero, Featured Products, and Contact. The focus is on exploring basic concepts like JSX, props, state, and events while creating a visually appealing and functional interface. In addition to being a great learning opportunity, the project will serve as an important first step in the portfolio, showcasing front-end skills and development best practices",
+    link: "https://github.com/LucasGervasoni/React-otica?tab=readme-ov-file",
+    project_image: "https://private-user-images.githubusercontent.com/128429739/391516626-aa292929-c762-489f-9da9-6c4234318d70.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY3Nzc1NjEsIm5iZiI6MTczNjc3NzI2MSwicGF0aCI6Ii8xMjg0Mjk3MzkvMzkxNTE2NjI2LWFhMjkyOTI5LWM3NjItNDg5Zi05ZGE5LTZjNDIzNDMxOGQ3MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDExM1QxNDA3NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zYjNmOTY0MDk3YTNjZjVjNWEyNTg4Y2E4ZGIyNjQ0ZGMwMGM0MjcxM2FiMWFkM2IzMjUwNjg3NGYxMTNhZTdlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Vn5BupNAc3WEw9nD8MVqg-siF3viDXtVsl44Ffk_hsI",
+    type: "Landing Page",
+  },
+  {
+    name: "Agencia Desing",
+    tecnologias: [
+      { nome: "React", icone: "./skills/react.svg" },
+      { nome: "HTML", icone: "./skills/html5.svg" },
+      { nome: "CSS", icone: "./skills/css3.svg" },
+      { nome: "Js", icone: "./skills/javascript.svg" },
+    ],
+    desc: "The Landing Page Agência Design is a fictional project developed to enhance the use of props in React. It simulates the page of a modern design agency, highlighting its services, portfolio, and client testimonials, while exploring how data flows between components. In addition to reinforcing the understanding of how interactions happen through props, the project serves as a great addition to the portfolio, showcasing skills in front-end development and code organization.",
+    link: "https://github.com/LucasGervasoni/React-AgenciaDesing?tab=readme-ov-file",
+    project_image: "https://raw.githubusercontent.com/LucasGervasoni/React-AgenciaDesing/refs/heads/master/image.png",
+    type: "Landing Page",
+  },
+  {
+    name: "Barber Shop",
+    tecnologias: [
+      { nome: "React", icone: "./skills/react.svg" },
+      { nome: "HTML", icone: "./skills/html5.svg" },
+      { nome: "CSS", icone: "./skills/css3.svg" },
+      { nome: "Js", icone: "./skills/javascript.svg" },
+    ],
+    desc: "The Landing Page Barber Shop is a fictional project designed to explore and learn about React hooks, such as useState and useEffect, in a practical and enjoyable way. The goal is to build a modern and responsive page representing a barbershop, featuring functionalities like theme switching. In addition to being a great learning opportunity, the project will serve as a portfolio highlight, showcasing front-end and interactivity skills.",
+    link: "https://github.com/LucasGervasoni/React-barbearia?tab=readme-ov-file",
+    project_image: "https://raw.githubusercontent.com/LucasGervasoni/React-barbearia/refs/heads/master/image.png",
+    type: "Landing Page",
+  },
+  {
     name: "Doceria Candy Land",
     tecnologias: [
       { nome: "HTML", icone: "./skills/html5.svg" },

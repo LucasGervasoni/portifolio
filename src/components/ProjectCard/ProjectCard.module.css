@@ -2,8 +2,7 @@
   height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
 }
 
 
@@ -41,14 +40,14 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 4rem;
+  gap: 2rem;
   padding-bottom: 2rem;
 }
 
 .project_skill{
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   font-weight: 700;
 }
 
@@ -99,17 +98,21 @@
   
   .project_skills{
     justify-content: center;
-    gap: 2rem;
+    gap: 0.5rem;
   }
   
   .project_skill{
-    gap: 0.5rem;
+    gap: 0rem;
   }
   
 
   .project_desc{
     text-align: center;
     width: 300px;
+  }
+
+  .skill_name{
+    display: none;
   }
   
 }
