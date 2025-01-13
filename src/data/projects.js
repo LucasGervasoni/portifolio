@@ -9,7 +9,7 @@ const projects = [
     ],
     desc: "The Landing Page Ótica is a fictional project designed to practice the fundamentals of React in a practical and intuitive way. The goal is to build a modern and responsive page representing an eyewear store, with reusable components and sections such as Hero, Featured Products, and Contact. The focus is on exploring basic concepts like JSX, props, state, and events while creating a visually appealing and functional interface. In addition to being a great learning opportunity, the project will serve as an important first step in the portfolio, showcasing front-end skills and development best practices",
     link: "https://github.com/LucasGervasoni/React-otica?tab=readme-ov-file",
-    project_image: "https://private-user-images.githubusercontent.com/128429739/391516626-aa292929-c762-489f-9da9-6c4234318d70.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY3Nzc1NjEsIm5iZiI6MTczNjc3NzI2MSwicGF0aCI6Ii8xMjg0Mjk3MzkvMzkxNTE2NjI2LWFhMjkyOTI5LWM3NjItNDg5Zi05ZGE5LTZjNDIzNDMxOGQ3MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDExM1QxNDA3NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zYjNmOTY0MDk3YTNjZjVjNWEyNTg4Y2E4ZGIyNjQ0ZGMwMGM0MjcxM2FiMWFkM2IzMjUwNjg3NGYxMTNhZTdlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Vn5BupNAc3WEw9nD8MVqg-siF3viDXtVsl44Ffk_hsI",
+    project_image: "https://github.com/user-attachments/assets/ef8d99ac-e8c3-4712-83a1-ce2c5a0bbde2",
     type: "Landing Page",
   },
   {
