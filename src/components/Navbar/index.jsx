@@ -41,9 +41,10 @@ export default function Navbar(){
               'aria-labelledby': 'basic-button',
             }}
           >
-            <MenuItem onClick={handleClose}><Link className={estilos.link} href="/Projetos">Web</Link></MenuItem>
-            <MenuItem onClick={handleClose}><Link className={estilos.link} href="/Projetos">Dashboards</Link></MenuItem>
-            <MenuItem onClick={handleClose}><Link className={estilos.link} href="/Projetos">Automation</Link></MenuItem>
+            <MenuItem onClick={handleClose}><Link className={estilos.link} href="/Projetos?type=Web">Web</Link></MenuItem>
+            <MenuItem onClick={handleClose}><Link className={estilos.link} href="/Projetos?type=Landing Page">Landing Pages</Link></MenuItem>
+            <MenuItem onClick={handleClose}><Link className={estilos.link} href="/Projetos?type=Dashboards">Dashboards</Link></MenuItem>
+            <MenuItem onClick={handleClose}><Link className={estilos.link} href="/Projetos?type=Automation">Automation</Link></MenuItem>
           </Menu>
           </li>
       </ul>

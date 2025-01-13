@@ -9,7 +9,7 @@ const projects = [
     desc: "This is a Landing Page for the fictional confectionery CandyLand. Built without modern tools like Flexbox or Grid Layout, the page used float and position for layout, with well-structured HTML and features like modal, alert, and automatic scrolling implemented in JavaScript. The project was a challenge that strengthened my understanding of legacy techniques, improved my ability to navigate official documentation, and prepared me to tackle different development approaches. Later, I added responsiveness using Flexbox.",
     link: "https://github.com/LucasGervasoni/Doceria_CandyLand-Projeto",
     project_image: "https://raw.githubusercontent.com/LucasGervasoni/Doceria_CandyLand-Projeto/refs/heads/main/image.png",
-    type: "web",
+    type: "Landing Page",
   },
 
 ];
