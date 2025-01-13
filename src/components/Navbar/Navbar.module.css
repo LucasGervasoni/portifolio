@@ -38,6 +38,18 @@
   }
 }
 
+@media screen and (max-width:746px) {
+  .logo{
+    font-size: var(--font-size-small);
+  }
+}
+
+@media screen and (max-width:694px) {
+  .logo{
+    font-size: 1.2rem;
+  }
+}
+
 @media  screen and (max-width:556px) {
   .navbar{
     flex-direction: column;
