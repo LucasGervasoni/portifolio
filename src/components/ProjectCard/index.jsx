@@ -43,7 +43,7 @@ export default function ProjectCard({ projects }) {
           </ul>
           <p className={estilos.project_desc}>{projeto.desc}
           </p>
-          <a className={estilos.project_link} href={projeto.link} target='_blank'>View Project</a>
+          <a className={estilos.project_link} href={projeto.link} target='_blank'>SOURCE CODE</a>
         </div>
       </div>
     )))}
