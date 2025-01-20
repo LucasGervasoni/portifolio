@@ -25,6 +25,16 @@
 
 .prev, .next{
   cursor: pointer;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 10px;
+  transition: 300ms ease-out;
+
+  &:hover{
+    background-color: var(--color-secondary);
+    transition: 300ms ease-in;
+    border-color: var(--color-secondary);
+  }
 }
 
 /*info*/
