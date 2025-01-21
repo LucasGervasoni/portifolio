@@ -30,7 +30,6 @@ export default function ProjectCard({ projects }) {
                 className={estilos.project_link}
                 href={projeto.link}
                 target="_blank"
-                rel="noopener noreferrer"
               >
                 SOURCE CODE
               </a>

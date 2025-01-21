@@ -10,7 +10,7 @@ const projects = [
       { nome: "CSS", icone: "./skills/css3.svg" },
       { nome: "Js", icone: "./skills/javascript.svg" },
     ],
-    desc: "The Landing Page Ótica is a fictional project designed to practice the fundamentals of React in a practical and intuitive way. The goal is to build a modern and responsive page representing an eyewear store, with reusable components and sections such as Hero, Featured Products, and Contact. The focus is on exploring basic concepts like JSX, props, state, and events while creating a visually appealing and functional interface. In addition to being a great learning opportunity, the project will serve as an important first step in the portfolio, showcasing front-end skills and development best practices",
+    desc: "The Landing Page Ótica is a fictional project designed to practice the fundamentals of React in a practical and intuitive way. The goal is to build a modern and responsive page representing an eyewear store. The focus is on exploring basic concepts like JSX, props, state, and events while creating a visually appealing and functional interface. In addition to being a great learning opportunity, the project will serve as an important first step in the portfolio, showcasing front-end skills and development best practices",
     link: "https://github.com/LucasGervasoni/React-otica?tab=readme-ov-file",
     project_image: "https://github.com/user-attachments/assets/ef8d99ac-e8c3-4712-83a1-ce2c5a0bbde2",
     type: "Landing Page",
