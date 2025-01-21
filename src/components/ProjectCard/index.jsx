@@ -33,11 +33,12 @@ export default function ProjectCard({ projects }) {
           {projeto.tecnologias.map((tech, idx) => (
                 <li className={estilos.project_skill} key={idx}>
                   <img
-                    style={{ width: '32px', height: '32px' }}
+                    style={{ width: '24px', height: '24px' }}
                     src={tech.icone}
                     alt={tech.nome}
+                    title={tech.nome}
                   />
-                  <p className={estilos.skill_name}>{tech.nome}</p>
+                  {/* <p className={estilos.skill_name}>{tech.nome}</p> */}
                 </li>
               ))}
           </ul>

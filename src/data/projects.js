@@ -1,4 +1,7 @@
 const projects = [
+
+//Landing Page
+
   {
     name: "Otica",
     tecnologias: [
@@ -49,6 +52,27 @@ const projects = [
     link: "https://github.com/LucasGervasoni/Doceria_CandyLand-Projeto",
     project_image: "https://raw.githubusercontent.com/LucasGervasoni/Doceria_CandyLand-Projeto/refs/heads/main/image.png",
     type: "Landing Page",
+  },
+
+  // WEB
+
+  {
+    name: "Photographer Management System",
+    tecnologias: [
+      { nome: "HTML", icone: "./skills/html5.svg" },
+      { nome: "CSS", icone: "./skills/css3.svg" },
+      { nome: "Bootstrap", icone: "./skills/bootstrap.svg" },
+      { nome: "JavaScript", icone: "./skills/javascript.svg" },
+      { nome: "Python", icone: "./skills/python.svg" },
+      { nome: "Django", icone: "./skills/django.svg" },
+      { nome: "AWS", icone: "./skills/amazonwebservices.svg" },
+      { nome: "Heroku", icone: "./skills/heroku.svg" },
+      { nome: "PostgreSQL", icone: "./skills/postgresql.svg" },
+    ],
+    desc: "This project is designed to streamline the workflow of a photography business by centralizing the management of orders, photographers, and editors. The system facilitates the assignment, upload, editing, and tracking of photographic orders, improving efficiency and enhancing collaboration.",
+    link: "https://github.com/LucasGervasoni/Photographer-Management-System",
+    project_image: "https://github.com/user-attachments/assets/255afe78-38b6-4988-8049-c992047e3825",
+    type: "Web",
   },
 
 ];
