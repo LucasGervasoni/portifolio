@@ -16,7 +16,7 @@ const projects = [
     type: "Landing Page",
   },
   {
-    name: "Agencia Desing",
+    name: "Agencia Design",
     tecnologias: [
       { nome: "React", icone: "./skills/react.svg" },
       { nome: "HTML", icone: "./skills/html5.svg" },
