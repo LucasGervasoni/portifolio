@@ -17,7 +17,7 @@
   width: 300px;
   min-height: 500px;
   max-height: 500px;
-  box-shadow: rgba(43, 105, 251, 0.1) 0 0 20px 0;
+  box-shadow: rgba(43, 105, 251, 0.1) 4px 4px 20px 6px;
   border-radius: 15px;
   background-color: #fff;
   overflow: hidden;
