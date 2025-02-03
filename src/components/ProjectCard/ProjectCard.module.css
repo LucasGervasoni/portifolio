@@ -10,6 +10,7 @@
 
 
 .card{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,17 +75,24 @@
 }
 
 .project_link{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding: 10px 5px;
+  border-radius: 20px;
+  position: absolute;
   color: var(--color-primary);
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  align-self: center;
+  bottom: 40px;
+  background: transparent;
+  border: 1px solid black;
+  transition: all 0.5s ease-out;
 
   &:hover {
-    color: var(--color-secondary);
+    color: var(--color-light);
+    background-color: var(--color-primary);
+    border: none;
+    transition: all 0.5s ease-in;
   }
 }
 

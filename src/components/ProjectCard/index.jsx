@@ -27,14 +27,14 @@ export default function ProjectCard({ projects }) {
               <h3 className={estilos.project_name}>{projeto.name}</h3>
               <p className={estilos.project_desc}>{projeto.desc}</p>
             </div>
-            <a
+          </div>
+          <a
                 className={estilos.project_link}
                 href={projeto.link}
                 target="_blank"
               >
-                SOURCE CODE
+                Source Code
               </a>
-          </div>
         </div>
       ))}
     </div>
