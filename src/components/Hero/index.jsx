@@ -6,7 +6,7 @@ export default function Hero(){
       <section className={estilos.hero}>
         <p className={estilos.intro}>Hello I'm,</p>
         <h1 className={estilos.nome}>Lucas Gervasoni</h1>
-        <p className={estilos.ocupacao}>Full Stack Developer</p>
+        <p className={estilos.ocupacao}>Software Developer</p>
         <div className={estilos.btns}>
           <a href="https://docs.google.com/document/d/1u96uK6k_yEJ5IvKGmi6Bod_oLFPCOhP2/edit?usp=sharing&ouid=105667573885847009685&rtpof=true&sd=true" target="_blank" download className={`${estilos.btn} ${estilos.btn_cv}`}>Download CV</a>
           <a href="mailto:lucasgerva11229@gmail.com" className={`${estilos.btn} ${estilos.btn_contact}`}>Contact me</a>

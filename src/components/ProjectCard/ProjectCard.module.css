@@ -74,27 +74,42 @@
   flex-grow: 1;
 }
 
-.project_link{
-  padding: 10px 5px;
-  border-radius: 20px;
-  position: absolute;
-  color: var(--color-primary);
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  bottom: 40px;
-  background: transparent;
-  border: 1px solid black;
-  transition: all 0.5s ease-out;
 
-  &:hover {
-    color: var(--color-light);
-    background-color: var(--color-primary);
-    border: none;
-    transition: all 0.5s ease-in;
-  }
-}
+.project_link {
+  position: absolute;
+  bottom: 40px;
+  padding: 10px 20px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  font-weight: 1000;
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+ .project_link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ .project_link:hover {
+  color: #e8e8e8;
+ }
+ 
+ .project_link:hover::before {
+  width: 100%;
+ }
 
 @media screen and (max-width:375px), (max-width:425px), (max-width:768px), (max-width:1024px) {
   #Card{

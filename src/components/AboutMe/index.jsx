@@ -8,7 +8,7 @@ export default function AboutMe(){
       </h2>
       <p className={estilos.content}>
       <strong className={estilos.bold}>Hi there! 👋</strong><br/>
-        I'm Lucas, a Full Stack Developer at the beginning of my career, passionate about technology and solving real-world problems through coding.
+        I'm Lucas, a Software Developer at the beginning of my career, passionate about technology and solving real-world problems through coding.
         </p>
       <p className={estilos.content}>
       <strong className={estilos.bold}>My Journey</strong><br/>
