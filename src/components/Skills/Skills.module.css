@@ -16,28 +16,31 @@
 }
 
 .icons_list {
+  width: 100%;
   display: flex;
   flex-direction: row;
+  gap: 1.5rem;
   list-style: none;
-  gap: 6rem;
   position: absolute;
   left: 0;
-  transition: left 100s linear;
 }
 
-.icons:hover .icons_list {
-  left: -100%;
-  transition: left 20s linear;
+@keyframes scrolling {
+
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-1000%)}
 }
 
 .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
 
   & img {
-    width: 60px;
+    min-width: 100px;
     height: 60px;
+    animation: scrolling 60s linear infinite;
   }
 }
+
+
