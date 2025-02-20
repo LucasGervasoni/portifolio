@@ -17,8 +17,7 @@ export default function AboutMe(){
       <p className={estilos.content}>
       <strong className={estilos.bold}>My Skills</strong><br/>
         I have experience working with modern technologies that enable me to build complete and functional applications:<br/><br/>
-        <b>Front-end:</b> HTML, SCSS, Javascript, React, Bootstrap, Angular,<br/>
-        <b>Back-end:</b> Python, Nodejs, Django, Typescript, REST APIs,<br/>
+        <b>Tecnologies</b> Python, Nodejs, React, Java, Spring Boot,<br/>
         <b>Databases:</b> SQL, MySQL, PostgreSQL, SQLite,<br/>
         <b>Infraestructure:</b> AWS (S3, EC2, RDS), Heroku, and BunnyCDN,<br/>
         <b>Tools:</b> Git, Excel, Word, Powerpoint, PowerBI,<br/><br/>

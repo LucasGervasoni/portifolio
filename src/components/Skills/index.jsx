@@ -4,12 +4,11 @@ export default function Skills(){
 
   const skills = [
     { src: "/skills/amazonwebservices.svg", alt: "AWS" },
-    { src: "/skills/angularjs.svg", alt: "angular" },
     { src: "/skills/bootstrap.svg", alt: "bootstrap" },
     { src: "/skills/css3.svg", alt: "css" },
     { src: "/skills/django.svg", alt: "django" },
     { src: "/skills/express.svg", alt: "express" },
-    { src: "/skills/figma.svg", alt: "figma" },
+    { src: "/skills/spring.svg", alt: "spring boot" },
     { src: "/skills/git.svg", alt: "git" },
     { src: "/skills/heroku.svg", alt: "heroku" },
     { src: "/skills/html5.svg", alt: "html" },
@@ -25,6 +24,8 @@ export default function Skills(){
     { src: "/skills/sass.svg", alt: "sass" },
     { src: "/skills/tailwindcss.svg", alt: "tailwind" },
     { src: "/skills/typescript.svg", alt: "typescript" },
+    { src: "/skills/java.svg", alt: "java" },
+    { src: "/skills/figma.svg", alt: "figma" },
   ];
 
   return(
